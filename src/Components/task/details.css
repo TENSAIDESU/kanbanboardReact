@@ -1,0 +1,80 @@
+.kanbanBox {
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    margin: 20px 20px 70px 20px;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .current {
+    margin: 40px;
+    max-width: 700px;
+    word-break: break-word;
+    min-height: 550px;
+  }
+.buttonback{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.buttonback:hover{
+  background-color: rgba(87, 81, 81, 0.37);
+}
+  .backimg {
+    width: 20px;
+  }
+  .current button {
+    border: none;
+    color: white;
+    background-color: #0079bf;
+    cursor: pointer;
+    font-size: 18px;
+    width: 85px;
+    margin: 40px 0 40px 0;
+    border-radius: 5px;
+    padding: 5px;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .input {
+    border: 1px solid #ebecf0;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    word-break: break-word;
+    min-width: 220px;
+  }
+  .form {
+    margin: 40px;
+    min-height: 550px;
+    word-break: break-word;
+  }
+  .textarea {
+    border: 1px solid #ebecf0;
+    border-radius: 5px;
+    font-size: 18px;
+    word-break: break-word;
+  }
+  
+  .save {
+    border: none;
+    color: white;
+    background-color: #0079bf;
+    cursor: pointer;
+    font-size: 18px;
+    width: 85px;
+    margin: 40px 0 40px 0;
+    border-radius: 5px;
+    padding: 5px;
+    bottom: 0;
+  
+    position: absolute;
+  }
+  .empty {
+    text-align: center;
+    padding: 10px 0 50px 0;
+    line-height: 3rem;
+  }
+  
