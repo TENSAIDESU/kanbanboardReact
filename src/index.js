@@ -1,7 +1,5 @@
 import React from "react";
 //import ReactDOM from "react-dom";
-//import { BrowserRouter } from "react-router-dom";
-//import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Provider } from "react-redux";
 import { createRoot } from 'react-dom/client';
