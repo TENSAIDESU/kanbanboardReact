@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+//import { NavLink } from "react-router-dom";
 import { Form } from "../math/math";
 import { Tasks } from "../task/task";
 import  "./main.css";
@@ -12,7 +13,7 @@ const Main = () => {
   }, [cards]);
 
   return (
-    <body>
+    <main>
       <div className="mainbody">
         {memoizedCards.map((card) => (
           <div key={card.id} className="card">
@@ -28,7 +29,7 @@ const Main = () => {
           </div>
         ))}
       </div>
-    </body>
+    </main>
   );
 };
 
