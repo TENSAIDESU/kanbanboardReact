@@ -15,8 +15,9 @@ import "../src/index.css"
  <>
       <Header/>
       <Routes>
-      <Route  path='/' element={<Main/>}/>
+        <Route  path='/' element={<Main/>}/>
         <Route path='/tasks/:taskId' element={<TaskDetails/>}/>
+         <Route  path='/Kanban-board' element={<Main/>}/>
        </Routes>
        <Footer/>
    </>  
